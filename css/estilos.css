@@ -1,0 +1,136 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+font-family: 'Merriweather Sans', sans-serif;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: rgb(210, 87, 30);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 100px;
+}
+header{
+width: 100%;
+height: 600px;
+background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(41, 92%, 53%, 0.678), hsla(6, 89%, 51%, 0.692)),url(../iconos/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(41, 92%, 53%, 0.678), hsla(6, 89%, 51%, 0.692)),url(../iconos/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color:rgb(255, 255, 255) ;
+    font-weight: 300;
+    text-decoration:none;
+    margin-right: 10px;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+    display: flex;
+    height:430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+font-size: 50px;
+color: rgb(255, 255, 255);
+
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    
+    }
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-noticias{
+    display:flex;
+    justify-content: space-evenly;
+}
+.contenedor-noticias > p > a{
+    margin-top: 0px;
+    margin-right: 0px;
+    color:tomato ;
+    font-weight: 300;
+    text-decoration:none;
+    /*margin-right: 10px;*/
+    text-align: center;
+    justify-content: center;
+}
+.contenedor-noticias > p  > a:hover{
+    text-decoration: underline;
+    
+}
+.contenedor-autores{
+    display:flex;
+    justify-content: space-evenly;
+}
+.contenedor-autores > p > a{
+    margin-top: 0px;
+    margin-right: 0px;
+    color:tomato ;
+    font-weight: 300;
+    text-decoration:none;
+    /*margin-right: 10px;*/
+    text-align: center;
+    justify-content: center;
+}
+.contenedor-autores > p > a:hover{
+    text-decoration: underline; 
+}
+.imagen-about-us{
+
+    width: 48%;
+}
+.contenedor2{
+    background: #f2f2f2;
+}
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
